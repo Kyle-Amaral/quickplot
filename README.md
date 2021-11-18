@@ -6,10 +6,11 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of quickplot is to produce a quick plot of two numerical
-vairables. The graph that is produced places the x parameter on the
-x-axis, and the y parameter on the y-axis. These variables are
-determined based on the dataframe that is defined as the data parameter.
+The goal of quickplot is to produce a quick plot of two numeric
+variables. Three parameters are required; data, x, and y. The graph that
+is produced places the x parameter on the x-axis, and the y parameter on
+the y-axis. These variables are determined based on the dataframe that
+is defined as the data parameter.
 
 ## Installation
 
