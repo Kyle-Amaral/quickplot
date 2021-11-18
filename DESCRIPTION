@@ -1,16 +1,16 @@
 Package: quickplot
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Produce a Scatter Plot
+Version: 1.0.0
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Kyle",
+           family = "Amaral",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+           email = "Kyle.Amaral@bcchr.ca")
+Description: This package produces a quick plot of two numerical vairables. The graph that is produced by this function places the x parameter on the x-axis, and the y parameter on the y-axis. These variables are determined based on the dataframe that is defined as the data parameter. The graph that is produced will contain an alpha transparency of 0.3, and a linear regression line will also be placed on the graph. The limits of the graph will be expended to an origin of (0,0), and a classic theme has been applied.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+Imports: magrittr, dplyr, palmerpenguins, roxygen2, testthat, ggplot2
+Config/testthat/edition: 3
