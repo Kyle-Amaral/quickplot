@@ -35,8 +35,8 @@ scatter_graph(palmerpenguins::penguins, bill_length_mm, flipper_length_mm)
 <img src="man/figures/README-example-1.png" width="100%" />
 
 This package is special because it produces a scatterplot that can be
-used to see preliminary trends between two numerical variables. All is
-requires is the dataframe, and the two numerical variables of interest.
+used to see preliminary trends between two numerical variables. All it
+requires is the dataframe and the two numerical variables of interest.
 It will also make sure that only numerical variables are being used and
 will let you know why the function is not working (ie. inputted a factor
 variable instead of numerical).
